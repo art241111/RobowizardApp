@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        jcenter()
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
+        classpath("com.android.tools.build:gradle:4.2.2")
+    }
+}
+
+group = "ru.geraimovAV"
+version = "1.0"
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        mavenLocal()
+        maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+    }
+}

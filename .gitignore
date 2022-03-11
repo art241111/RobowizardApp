@@ -1,0 +1,11 @@
+# Project exclude paths
+/.gradle/
+/android/build/
+/backend/build/
+/common/data/build/
+/common/data/build/classes/kotlin/desktop/main/
+/common/ui/build/
+/common/ui/build/classes/kotlin/desktop/main/
+/desktop/build/
+/desktop/build/classes/kotlin/jvm/main/
+/frontend/build/
